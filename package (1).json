@@ -1,0 +1,16 @@
+{
+  "name": "stremio-simkl-addon",
+  "version": "1.0.0",
+  "description": "Stremio catalog addon showing a Simkl user's watched and plan-to-watch movies and TV shows",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
